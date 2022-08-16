@@ -1,4 +1,5 @@
 import React from 'react';
+import {} from 'react-i18next';
 import {
   ArrowDownOutlined,
   ArrowUpOutlined,
@@ -22,6 +23,7 @@ const CardList = ({
   displayType,
   getFieldsProps,
 }) => {
+  const {} = useTranslation();
   const { props = {}, itemProps } = schema;
   const { methods } = useTools();
 
